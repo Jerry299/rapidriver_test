@@ -1,0 +1,22 @@
+.header-bg {
+  background-color: #ffffff;
+}
+.transform-li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #1d2939;
+}
+.header-style {
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.active {
+  color: #7e2553;
+  font-weight: 700;
+}

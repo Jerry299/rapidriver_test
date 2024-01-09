@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+
+:root {
+  --color-light-blue: #525ceb;
+  --color-primary: white;
+}
+
+.bg-blue {
+  background-color: var(--color-light-blue);
+}
+.white-text {
+  color: var(--color-primary);
+}
+.boxShadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.full-width {
+  width: 100%;
+}
+.half-width {
+  width: 50%;
+}
+.full-height {
+  height: 100%;
+}
+.width600 {
+  width: 600px;
+}
+.py-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.px-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.px-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.pl20 {
+  padding-left: 20%;
+}
+.d-flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.flex-column {
+  flex-direction: column;
+}
+.justify-space-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.app-input {
+  padding: 10px 15px;
+  width: 60%;
+}
+.fw500 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.fw400 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.fw600 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.text-center {
+  text-align: center;
+}
+.fontSize-13em {
+  font-size: 1.3em;
+}
+.fontSize-12em {
+  font-size: 1.2em;
+}
+.fontSize16 {
+  font-size: 16px;
+}
+.fontSize14 {
+  font-size: 14px;
+}
+.no-desktop-but-mobile {
+  display: none;
+}
+.width80 {
+  width: 80%;
+}
+.ilabel {
+  display: block;
+  color: rgba(32, 14, 50, 0.5);
+  font-size: 15px;
+}
+.textarea {
+  height: 120px;
+  width: 600px;
+  padding: 5px 7px;
+}
+
+.width65 {
+  width: 65%;
+}
+.error {
+  color: #ff004d;
+}
+.success{
+  color: #35A29F;
+}
+.margin-auto {
+  margin: 0 auto;
+}
+.search-wrapper {
+  width: 50%;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  background-position: center;
+  transition: background 0.8s;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+@media (max-width: 760px) {
+  .no-desktop-but-mobile {
+    display: block;
+  }
+}
